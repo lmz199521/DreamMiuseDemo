@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Dream音乐</string>
+    <string name="navBarTitle">音乐</string>
+    <string name="inputUsername">用户名</string>
+    <string name="inputPass">密码</string>
+    <string name="registerBtn">立即注册</string>
+    <string name="loginBtn">登   录</string>
+    <string name="registerBtn2">注   册</string>
+    <string name="changepassword">修改密码</string>
+    <string name="logout">退出登录</string>
+
+    <string name="miuses">推荐歌单</string>
+</resources>

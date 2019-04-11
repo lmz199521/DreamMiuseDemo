@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFDFC"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo3"
+            android:scaleType="fitXY"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="right|center_vertical">
+            <TextView
+                android:id="@+id/item_miuse_playNum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100万"
+                android:textSize="@dimen/playNum"
+                android:gravity="center_vertical"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/ic_action_miuse3"
+                android:layout_marginRight="@dimen/marginSize"/>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/item_miuse_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="dsadsadsadsads"
+        android:textColor="@color/miuseNameColor"
+        android:textSize="@dimen/miuseName"
+        />
+
+</LinearLayout>

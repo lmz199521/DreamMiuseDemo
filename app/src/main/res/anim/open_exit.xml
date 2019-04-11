@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--打开activity 原有activity消失动画，pivot50%代表缩放时候，以屏幕中心点缩放-->
+    <scale android:fromXScale="1.0"
+            android:fromYScale="1.0"
+            android:toXScale="0.7"
+            android:toYScale="0.7"
+            android:pivotX="50%"
+            android:pivotY="50%"
+            android:duration="@integer/animation_duration"></scale>
+</set>

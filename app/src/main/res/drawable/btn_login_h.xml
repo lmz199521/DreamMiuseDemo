@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <!--按钮高亮状态 也就是点击状态状态  solid实体颜色-->
+    <solid android:color="@color/mainColorH"></solid>
+    <!--边角弧度-->
+    <corners android:radius="@dimen/diraus"></corners>
+</shape>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="mainColor">#FF2A2D</color>
+    <color name="navBarTitle">#FCFCFF</color>
+    <color name="lineColor">#C7B9C4</color>
+    <color name="mainColorH">#FF0001</color>
+    <color name="changeBtnColor">#ECF5FF</color>
+    <color name="changeBtnColorH">#DEE7F1</color>
+    <color name="titleColor">#FF1F1F</color>
+    <color name="titleName">#151E13</color>
+    <color name="titleBackgroud">#928F90</color>
+    <color name="miuseNameColor">#2B2829</color>
+</resources>

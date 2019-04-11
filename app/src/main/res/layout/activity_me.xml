@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".avtivitys.MeActivity">
+    <include layout="@layout/nav_bar"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/usernameTextSize"
+        android:gravity="center"
+        android:text="用户名："/>
+    <TextView
+        android:id="@+id/me_changepass"
+       style="@style/changePassword"
+        />
+    <Button
+        android:id="@+id/me_logoutBtn"
+       style="@style/LoginBtn"
+        android:text="@string/logout"
+        android:layout_marginTop="@dimen/marginSize"
+        android:textSize="@dimen/inputTextSize"/>
+
+</LinearLayout>

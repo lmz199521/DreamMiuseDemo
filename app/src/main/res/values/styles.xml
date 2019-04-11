@@ -1,0 +1,53 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="colorPrimaryDark">@color/mainColor</item>
+        <!--增加动画属性-->
+        <item name="android:windowAnimationStyle">@style/AnimationActivity</item>
+    </style>
+    <!--设置动画样式-->
+    <style name="AnimationActivity" parent="@android:style/Animation.Activity">
+        <!--打开Activity时，新进入的activity的执行动画-->
+        <item name="android:activityOpenEnterAnimation">@anim/open_enter</item>
+        <!--打开Activity时，原activity的执行动画-->
+        <item name="android:activityOpenExitAnimation">@anim/open_exit</item>
+        <!--退出activity时，退出的activity执行动画-->
+        <item name="android:activityCloseExitAnimation">@anim/close_exit</item>
+        <!--退出activity时，新进入的activity执行动画-->
+        <item name="android:activityCloseEnterAnimation">@anim/close_enter</item>
+    </style>
+    
+    
+     <!--分割线-->
+    <style name="BackLine">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/lineColor</item>
+        <item name="android:layout_margin">@dimen/marginSize</item>
+    </style>
+
+    <!--登录按钮-->
+    <style name="LoginBtn">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/inputviewHeight</item>
+        <item name="android:background">@drawable/btn_login_select</item>
+        <item name="android:textColor">@color/navBarTitle</item>
+        <item name="android:layout_marginLeft">@dimen/marginSize</item>
+        <item name="android:layout_marginRight">@dimen/marginSize</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="changePassword">
+        <item name="android:text">@string/changepassword</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/inputviewHeight</item>
+        <item name="android:background">@drawable/btn_change_select</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/changeTextSize</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_marginLeft">@dimen/marginSize</item>
+    </style>
+
+</resources>

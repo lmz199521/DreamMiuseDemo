@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--设置边距-->
+    <dimen name="marginSize">16dp</dimen>
+    <!--navibar 的高度-->
+    <dimen name="navBarHeight">50dp</dimen>
+    <!--navbar title 大小-->
+    <dimen name="navBarTitleSize">26sp</dimen>
+    <!--输入框字体大小-->
+    <dimen name="inputTextSize">22sp</dimen>
+    <dimen name="usernameTextSize">30sp</dimen>
+    <dimen name="inputviewHeight">44dp</dimen>
+    <!--弧度尺寸-->
+    <dimen name="diraus">5dp</dimen>
+    <!--修改密码的字体大小-->
+    <dimen name="changeTextSize">18dp</dimen>
+    <!--//title边距-->
+    <dimen name="titleColorSize">10dp</dimen>
+
+    <dimen name="titletextSize">22dp</dimen>
+    <!--歌单名称-->
+    <dimen name="miuseName">10sp</dimen>
+    <!--播放量-->
+    <dimen name="playNum">8sp</dimen>
+</resources>
